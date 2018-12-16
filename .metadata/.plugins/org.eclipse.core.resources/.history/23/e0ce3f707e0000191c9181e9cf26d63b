@@ -1,0 +1,33 @@
+
+
+public class PoI {
+	
+	private int xCoord;
+	private int yCoord;
+	
+
+	public void setLocation() {
+		xCoord = 9;
+		yCoord = 9;
+		
+	}
+
+	public int getxCoord() {
+		return xCoord;
+	}
+
+	public void setxCoord(int xCoord) {
+		this.xCoord = xCoord;
+	}
+
+	public int getyCoord() {
+		return yCoord;
+	}
+
+	public void setyCoord(int yCoord) {
+		this.yCoord = yCoord;
+	}
+	
+	
+	
+}

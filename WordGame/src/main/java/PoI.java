@@ -1,0 +1,49 @@
+
+
+public class PoI {
+	
+	private int xCoord;
+	private int yCoord;
+	
+
+	public void setLocation() {
+		xCoord = 9;
+		yCoord = 9;
+		
+	}
+	
+	public void dispCompass(Player player, PoI treasure) {
+		
+		double compass;
+		
+		int diffX = player.getxCoord()-treasure.getxCoord();
+		int diffY = player.getyCoord()-treasure.getyCoord();
+		
+		
+		double x2 = Math.pow(diffX,2);
+		double y2 = Math.pow(diffY,2);
+		compass = Math.sqrt(x2+y2);
+//		compass = (int) Math.sqrt(Math.pow(player.getxCoord(),2) + Math.pow(player.getyCoord(),2));
+		
+		System.out.println("Distance to treasure: " + compass + "m");
+	}
+
+	public int getxCoord() {
+		return xCoord;
+	}
+
+	public void setxCoord(int xCoord) {
+		this.xCoord = xCoord;
+	}
+
+	public int getyCoord() {
+		return yCoord;
+	}
+
+	public void setyCoord(int yCoord) {
+		this.yCoord = yCoord;
+	}
+	
+	
+	
+}

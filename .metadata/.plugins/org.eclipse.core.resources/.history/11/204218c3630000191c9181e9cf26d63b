@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Player {
+
+	String input;
+	private int xCoord;
+	private int yCoord;
+
+
+	public void Start() {
+		System.out.println("Try north, south, east or west");
+//		System.out.println(input);
+		Scanner sc = new Scanner(System.in);
+		input = sc.next();
+		System.out.println(input);
+		
+	}
+
+	public void playerStart(Player player) {
+		player.setxCoord(0);
+		player.setyCoord(0);
+	}
+
+	public void playerChoice(Player player) {
+		if (input.equals("n")) {
+			setyCoord(getyCoord() + 1);
+		} else if (input.equals("s")) {
+			setyCoord(getyCoord() - 1);
+		} else if (input.equals("e")) {
+			setxCoord(getxCoord() + 1);
+		} else if (input.equals("w")) {
+			setxCoord(getxCoord() - 1);
+		}
+	}
+
+	public int getxCoord() {
+		return xCoord;
+	}
+
+	public void setxCoord(int xCoord) {
+		this.xCoord = xCoord;
+	}
+
+	public int getyCoord() {
+		return yCoord;
+	}
+
+	public void setyCoord(int yCoord) {
+		this.yCoord = yCoord;
+	}
+	
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Player {
+
+	String input;
+	
+	public void Start() {
+		System.out.println();
+		
+		Scanner sc = new Scanner(System.in);
+
+        input = sc.next();
+
+        System.out.println(input);
+        Scanner sc = new Scanner(System.in);
+        input = sc.next();
+        System.out.println(input);
+        
+	}
+	
+	public void playerChoice() {
+		if(input.equals("n"));
+	}
+	
+}

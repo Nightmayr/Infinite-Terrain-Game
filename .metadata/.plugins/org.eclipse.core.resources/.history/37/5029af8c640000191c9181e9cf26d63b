@@ -1,0 +1,24 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Player player = new Player();
+		PoI treasure = new PoI();
+		
+		
+		while(true) {
+			player.playerInput();
+			player.playerStart(player);
+			treasure.setLocation();
+			player.playerChoice(player);
+			
+		}
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+
+public class PoI {
+	
+	int xCoord;
+	int yCoord;
+
+	public void setLocation() {
+		int treasureX = 7;
+		int treasureY = 8;
+		
+		
+	}
+	
+	
+	
+}

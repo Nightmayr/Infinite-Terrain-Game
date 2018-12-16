@@ -1,0 +1,12 @@
+
+public class Game {
+	
+	boolean gameStatus = true;
+
+	public void checkStatus(PoI treasure, Player player) {
+		if ((treasure.getxCoord() == player.getxCoord()) && (treasure.getyCoord() == player.getyCoord())){
+			System.out.println("You found the treasure");
+		}
+	}
+	
+}

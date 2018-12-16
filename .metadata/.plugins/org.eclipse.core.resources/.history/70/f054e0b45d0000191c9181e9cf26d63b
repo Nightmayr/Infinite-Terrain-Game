@@ -1,0 +1,18 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Player player = new Player();
+		
+		player.Start();
+		player.playerStart(player);
+		player.playerChoice(player);
+		
+		
+		
+		
+	}
+
+}
