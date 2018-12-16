@@ -6,7 +6,7 @@ public class PoI {
 	private int yCoord;
 	
 
-	public void setTreasureLoc() {
+	public void setLocation() {
 		xCoord = (int) (Math.random()*10);
 		yCoord = (int) (Math.random()*10);
 		

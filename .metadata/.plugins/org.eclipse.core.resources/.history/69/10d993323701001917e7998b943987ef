@@ -13,15 +13,14 @@ public class Player {
 //		System.out.println(input);
 		System.out.print(">");
 		Scanner sc = new Scanner(System.in);
-		
 		input = sc.next();
 		System.out.println(input);
 		
 	}
 
 	public void playerStart(Player player) {
-		xCoord = (int) (Math.random() * 10);
-		yCoord = (int) (Math.random() * 10);
+		xCoord = 0;
+		yCoord = 0;
 	}
 
 	public void playerChoice(Player player) {

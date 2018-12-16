@@ -23,7 +23,6 @@ public class Game {
 		
 		while(checkStatus(treasure, player)==false) {
 			player.playerInput();
-			this.validPos(player);
 			player.playerChoice(player);
 			treasure.dispCompass(player, treasure);
 		}

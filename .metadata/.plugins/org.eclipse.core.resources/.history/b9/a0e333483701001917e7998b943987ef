@@ -6,9 +6,9 @@ public class PoI {
 	private int yCoord;
 	
 
-	public void setTreasureLoc() {
-		xCoord = (int) (Math.random()*10);
-		yCoord = (int) (Math.random()*10);
+	public void setLocation() {
+		xCoord = 9;
+		yCoord = 9;
 		
 	}
 	

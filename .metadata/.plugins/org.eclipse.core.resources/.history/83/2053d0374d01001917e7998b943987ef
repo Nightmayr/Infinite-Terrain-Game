@@ -1,0 +1,11 @@
+
+public class Swamp {
+	
+	public void swampTreasureStory() {
+		System.out.println("You see a box sitting on the plain.   Its filled with treasure!  You win!  The end.");
+	}
+	
+	
+	
+	
+}
